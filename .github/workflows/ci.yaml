@@ -9,7 +9,7 @@ on:
     branches:
       - master
   # fork-pr-approval.yaml dispatches CI on fork-pr/<PR number>-<short SHA> for
-  # a fork PR commit a maintainer approved.
+  # a fork PR commit a maintainer approved. 
   workflow_dispatch:
     inputs:
       pr-number:
